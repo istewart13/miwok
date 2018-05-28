@@ -43,7 +43,7 @@ public class WordAdapter extends ArrayAdapter<Word> {
         ImageView translationImageView = (ImageView) listItemView.findViewById(R.id.image);
         translationImageView.setImageResource(currentWord.getImageResourceID());
 
-        if (currentWord.getImageResourceID() == 0) {
+        if (!currentWord.hasImage()) {
             translationImageView.setVisibility(View.GONE);
         }
 
