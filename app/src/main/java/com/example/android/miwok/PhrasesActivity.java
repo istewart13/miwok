@@ -2,6 +2,7 @@ package com.example.android.miwok;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.widget.LinearLayout;
 import android.widget.ListView;
 
 import java.util.ArrayList;
@@ -18,14 +19,10 @@ public class PhrasesActivity extends AppCompatActivity {
         words.add(new Word("What is your name?", "tinnә oyaase'nә"));
         words.add(new Word("My name is...", "oyaaset..."));
         words.add(new Word("How are you feeling?", "michәksәs?"));
-        words.add(new Word("\t\n" +
-                "kuchi achit", "massokka"));
-        words.add(new Word("Are you coming?", "\t\n" +
-                "әәnәs'aa?"));
-        words.add(new Word("Yes, I’m coming.", "\t\n" +
-                "hәә’ әәnәm"));
-        words.add(new Word("I’m coming.", "\t\n" +
-                "әәnәm"));
+        words.add(new Word("kuchi achit", "massokka"));
+        words.add(new Word("Are you coming?", "әәnәs'aa?"));
+        words.add(new Word("Yes, I’m coming.", "hәә’ әәnәm"));
+        words.add(new Word("I’m coming.", "әәnәm"));
         words.add(new Word("Let’s go.", "yoowutis"));
         words.add(new Word("Come here.", "әnni'nem"));
 
