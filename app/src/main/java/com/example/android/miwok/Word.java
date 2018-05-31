@@ -16,10 +16,10 @@ public class Word {
         this.mMiwokTranslation = miwokTranslation;
     }
 
-    public Word(String defaultTranslation, String miwokTranslation, int imageResourceID) {
+    public Word(String defaultTranslation, String miwokTranslation, int audioResourceID) {
         this.mDefaultTranslation = defaultTranslation;
         this.mMiwokTranslation = miwokTranslation;
-        this.mImageResourceID = imageResourceID;
+        this.mAudioResourceID = audioResourceID;
     }
 
     public Word(String defaultTranslation, String miwokTranslation, int imageResourceID, int audioResourceID) {
